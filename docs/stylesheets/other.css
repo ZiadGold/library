@@ -1,0 +1,70 @@
+img[alt="Aerodrome"] {
+    /* your styles here */
+    border-radius: 50px;
+  }
+
+
+/* For drop down menu in home page */
+/* Main dropdown container */
+.custom-dropdown {
+  position: absolute;
+  display: none;
+  z-index: 9999;
+  background-color: rgba(255, 255, 255, 0.02); /* glassy dark */
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  padding: 0.5rem 0;
+  min-width: 125px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+/* Links inside the dropdown */
+.custom-dropdown a {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.6rem 1rem;
+  color: #e0e6ed;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.6rem; /* slightly larger */
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+
+/* SVG icons in links */
+.custom-dropdown a svg {
+  flex-shrink: 0;
+  stroke: #ffffff;
+  transition: stroke 0.3s ease;
+}
+
+/* Hover effects */
+.custom-dropdown a:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: #ffffff;
+}
+
+.custom-dropdown a:hover svg {
+  stroke: #ffffff;
+}
+
+
+#footnote-tooltip {
+    position: absolute;
+    display: none;
+    background: var(--footnote-tooltip);
+    color: var(--md-default-fg-color);
+    padding: 8px 12px;
+    max-width: 300px;
+    font-size: 0.6rem;
+    box-shadow: 0 0 3px #000000;
+    z-index: 1000;
+    pointer-events: none; /* So it doesn't block mouse events */
+}
+
+.feature .card a {
+  max-width: 500px;
+}

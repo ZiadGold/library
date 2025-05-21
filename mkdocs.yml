@@ -1,0 +1,123 @@
+# Project Information
+site_name: Levant vACC
+site_description: Levant vACC is a virtual area control center covering Lebanon, Syria, and Iraq on the VATSIM network.
+site_url: https://ziadgold.github.io/library
+repo_url: https://github.com/ZiadGold/library
+repo_name: ZiadGold/library
+edit_uri: ""
+copyright: ""
+
+# Project Configuration
+theme:
+  name: material
+  custom_dir: overrides
+  logo: assets/images/logo.png
+  font:
+    text: Mulish
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Go to the dark side..
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Shine some light on this!
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - navigation.instant
+    - navigation.instant.progress
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.footnote.tooltips
+  favicon: assets/images/logo.png
+  icon:
+    repo: fontawesome/brands/github
+    admonition:
+      example: fontawesome/solid/headset
+      success: octicons/light-bulb-16
+
+# Project Plugins
+plugins:
+  - search:
+      lang: en
+  - awesome-pages:
+        strict: false
+        order: asc
+        sort_type: natural
+        order_by: title
+  # - git-revision-date-localized:
+  #     type: date
+  #     strict: false
+  - external-markdown: {}
+  - glightbox:
+      touchNavigation: true
+      effect: zoom
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: false
+
+# Project Styling
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/admonitions.css
+  - stylesheets/navigation.css
+  - stylesheets/other.css
+
+# Project Extra / Social Links
+extra:
+  social:
+    - icon: fontawesome/brands/twitch
+      link: https://twitch.tv/Levantvacc
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/6qwQ4sV7
+    - icon: fontawesome/brands/facebook
+      link: https://facebook.com/Levantvacc
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/Levantvacc
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/Levantvacc
+    - icon: fontawesome/brands/github
+      link: https://github.com/ZiadGold/library
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@LevantVACC
+
+# Additional Markdown Extensions to use bundled icon sets
+markdown_extensions:
+  - footnotes
+  - meta: {} # Add front matter to a document
+  - admonition: {} # Makes things pretty
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - attr_list: {} # Add HTML attributes and CSS classes to Markdown elements
+  - pymdownx.tabbed: # Content tabs
+      alternate_style: true
+  - pymdownx.details: {} # Additional features to admonition
+  - pymdownx.caret: {} # Formatting Extension
+  - pymdownx.critic: {} # Alternate Formatting Extension
+  - pymdownx.mark: {} # Formatting Extension
+  - pymdownx.tilde: {} # Formatting Extension
+  - pymdownx.keys: {} # Visual keyboard keys extension
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji: # Allows emoji style inline embeds for icons
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - md_in_html: {} #enables the use of image figures
+  - abbr: {}
+  - pymdownx.snippets: {}
+  
+
+# Project Javascript
+# extra_javascript:
+#   - assets/javascript/dropdown.js
+  # - https://polyfill.io/v3/polyfill.min.js?features=es6

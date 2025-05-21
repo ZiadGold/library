@@ -1,0 +1,107 @@
+{% extends "base.html" %}
+
+
+{% block extrahead %}
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+
+  {% if page and page.meta and page.meta.title %}
+    <meta property="og:title" content="{{ page.meta.title }}">
+  {% else %}
+    <meta property="og:title" content="{{ config.site_name }}">
+  {% endif %}
+
+  {% if page and page.meta and page.meta.description %}
+    <meta property="og:description" content="{{ page.meta.description }}">
+  {% else %}
+    <meta property="og:description" content="{{ config.site_description }}">
+  {% endif %}
+
+  <meta property="og:image" content="https://ziadgold.github.io/library/assets/images/og-image.png">
+
+  {% if page and page.canonical_url %}
+    <meta property="og:url" content="{{ page.canonical_url }}">
+  {% endif %}
+
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#8F2020">
+{% endblock %}
+
+
+{% block container %}
+{{ super() }}
+
+          <div id="footnote-tooltip">Footnote</div>
+{% endblock %}
+
+{% block scripts %}
+
+  {{ super() }}
+  <script>
+(() => {
+  
+
+
+
+  function initFootnote(){
+    const refs = document.querySelectorAll("a.footnote-ref");
+    const tooltip = document.getElementById("footnote-tooltip");
+    
+    refs.forEach(ref => {
+        console.log(ref)
+        const href = ref.getAttribute("href");
+        const footnoteId = href.split("#")[1]; // gets "fn:1"
+
+        console.log(footnoteId)
+        const footnote = document.getElementById(footnoteId);
+        console.log(footnote)
+
+        if (!footnote) return;
+
+        // Clone & clean footnote content
+        const clone = footnote.cloneNode(true);
+        const backref = clone.querySelector(".footnote-backref");
+        if (backref) backref.remove();
+        const content = clone.innerHTML.trim();
+
+        
+        ref.addEventListener("mouseenter", function (e) {
+            const rect = ref.getBoundingClientRect();
+            const screenMidY = window.innerHeight / 2;
+
+            tooltip.innerHTML = content;
+            tooltip.style.display = "block";
+
+            // Horizontal position centered over the element
+            const tooltipWidth = tooltip.offsetWidth;
+            tooltip.style.left = `${e.pageX + 10}px`;
+
+            // Vertical logic: above if below screen middle, otherwise below
+            if (rect.top > screenMidY) {
+                // Show above
+                tooltip.style.top = `${rect.top + window.scrollY - tooltip.offsetHeight - 10}px`;
+            } else {
+                // Show below
+                tooltip.style.top = `${rect.bottom + window.scrollY + 10}px`;
+            }
+        });
+
+        ref.addEventListener("mouseleave", function () {
+            tooltip.style.display = "none";
+        });
+    });
+    
+  }
+
+
+
+  // Init on normal hard reload
+  document.addEventListener('DOMContentLoaded', initFootnote);
+
+  // Init on MkDocs Material soft navigation
+  if (typeof document$ !== 'undefined') {
+    document$.subscribe(initFootnote);
+  }
+})();
+</script>
+
+{% endblock %}
