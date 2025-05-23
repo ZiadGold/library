@@ -36,8 +36,6 @@ The aircraft may be handed off to the next controller after reaching 1,000 to 1,
 
 For VFR circuit aircrafts, the circuit direction must be issued with the take-off clearance.
 
-
-<!-- In the SOP it is example 4, example 3 is unavailable in the document-->
 !!! example "Example 3" 
     **Controller**: “OD-BWE, FLY RIGHT HAND CIRCUITS, WIND 220 DEGREES AT 6 KNOTS, RUNWAY 17, CLEARED FOR TAKEOFF.”
 

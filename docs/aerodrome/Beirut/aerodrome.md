@@ -18,6 +18,9 @@
 |:---------------------------:|:----------------:|:-----------:|
 |Beirut ATIS     | OLBA_ATIS      | 120.600     |
 |Beirut Ground     | OLBA_GND      | 121.900     |
+|Beirut Tower     | OLBA_TWR      | 118.900     |
+|Beirut Approach     | OLBA_APP      | 120.300     |
+|Beirut Radar     | OLBB_CTR      | 119.300     |
 
 ### 1.2.2 List of Other ATS Callsigns
 | Radio Callsign              | Callsign   |  Frequency (MHz)   |
