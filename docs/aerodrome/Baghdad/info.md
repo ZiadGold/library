@@ -3,24 +3,25 @@
 |                     |                                                      |
 |---------------------|------------------------------------------------------|
 |         Type        |                    Procedure                         |
-|       Revision      |                     1                                |
+|       Revision      |                     04/2025                                |
 |    Issue Date   |                                                  |
 |    Effective Date   |                                           |
-|     Prepared by     | Tarek Najib / Jordan Townsend  |
+|     Prepared by     | David Solesvik - VATMENA11  |
 |     Approved by     |                             |
-|   Review date  |                    Nil                       |
-| Identification |                OLBB_SOP_R01/2025                     |
+|   Review date  |                                           |
+| Identification |                LVT_SOP_ORBB_R01/2023                     |
 
 ## Record of Revisions
 
-
 | Revision Number | Date     | Description of Change | Author           |
 |-----------------|----------|------------------------|------------------|
-| 04/2025         |          | Initial Release        | Tarek Najib   |
+| 01/2023         |          | Initial Release        | David Solesvik   |
+| 04/2025         |          | Update                 | Jordan Townsend  |
+
 
 ## Limitation of Liability
 !!! warning
     This document has been prepared for use on the VATSIM network only. It should never be used for real-world aviation operations. The authors of this document cannot be held liable for any personal injury and/or death from the misuse of this document.
-    
+
 ## Scope
 The following documentation outlines the general operating procedures for our airports at an aerodrome level.
