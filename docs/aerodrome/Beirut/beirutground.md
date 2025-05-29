@@ -81,7 +81,7 @@ the following format:
 In situations necessitating updated clearances because of weather and runway configuration changes, all aircraft on the stands and aprons must be issued new clearances in accordance with the previously mentioned format. However, aircraft that have already commenced pushback will adhere to their existing clearances and configuration.
 
 ### 2.2.5 Aircrafts Requiring a New Cruise Level
-Some aircrafts may request an invalid cruise level with respect to the direction of their flight at heir top of climb. Flight plans with an invalid cruise level will have a red “L” symbol next to their RFL indicating that their cruise level is invalid. In this case, the controller must correct the flight level by issuing a lower flight level by 1,000 FT or an upper flight level according to the pilot’s request. The controller must ensure that the pilot is aware of the modification by either a private message or by communicating to him by voice, or by passing the modification along with the clearance.
+Some aircrafts may request an invalid cruise level with respect to the direction of their flight at their top of climb. Flight plans with an invalid cruise level will have a red “L” symbol next to their RFL indicating that their cruise level is invalid. In this case, the controller must correct the flight level by issuing a lower flight level by 1,000 FT or an upper flight level according to the pilot’s request. The controller must ensure that the pilot is aware of the modification by either a private message or by communicating to him by voice, or by passing the modification along with the clearance.
 
 
 !!! example
