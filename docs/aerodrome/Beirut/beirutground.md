@@ -37,8 +37,7 @@ The IFR clearance shall be expected to be issued in the following format:
 * Squawk code
 
 !!! example
-    **Controller**: “MEA374, BEIRUT GROUND, CLEARED TO JEDDAH VIA THE KAD2D DEPARTURE
-RUNWAY 21, FLIGHT PLANNED ROUTE, INITIAL CLIMB 5,000 FT, SQUAWK 4301.”
+    **Controller**: “MEA374, BEIRUT GROUND, CLEARED TO JEDDAH VIA THE KAD2D DEPARTURE RUNWAY 21, FLIGHT PLANNED ROUTE, INITIAL CLIMB 5,000 FT, SQUAWK 4301.”
 
 A full readback shall be expected by the ground controller. If the pilot does not report the ATIS
 information on initial contact, it shall be passed along with the QNH during the readback correct
@@ -46,8 +45,7 @@ phrase.
 
 
 !!! example
-    **Controller**: “MEA374, READBACK CORRECT, INFORMATION ALPHA, QNH 1017, ADVISE WHEN
-READY FOR PUSHBACK.”
+    **Controller**: “MEA374, READBACK CORRECT, INFORMATION ALPHA, QNH 1017, ADVISE WHEN READY FOR PUSHBACK.”
 
 ### 2.2.3 Aircrafts Requiring a Reroute
 
@@ -61,9 +59,7 @@ route which has been modified.
 * Issuing the clearance with the reroute over the frequency voice.
 
 !!! example
-    **Controller**: “MEA364, BEIRUT GROUND, CLEARED TO JEDDAH VIA THE KAD2D DEPARTURE
-RUNWAY 21, ELIKA VELOX LAKTO, FLIGHT PLANNED ROUTE, INITIAL CLIMB 5,000 FT,
-SQUAWK 4301.”
+    **Controller**: “MEA364, BEIRUT GROUND, CLEARED TO JEDDAH VIA THE KAD2D DEPARTURE RUNWAY 21, ELIKA VELOX LAKTO, FLIGHT PLANNED ROUTE, INITIAL CLIMB 5,000 FT, SQUAWK 4301.”
 
 Aircrafts shall be informed of any anomalies in their flight plan as soon as they connect to the
 network.

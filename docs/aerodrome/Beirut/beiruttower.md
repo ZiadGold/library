@@ -12,8 +12,7 @@ In Beirut, we operate with two standard runway configurations. The preferred con
 Conditional line up instructions shall include the traffic that the aircraft is to follow, as well as the word “behind” at the beginning and end of the transmission. It is recommended to only have a maximum of two conditional line up clearances active at one i.e., one aircraft lining up behind a departure, and another aircraft lining up behind them.
 
 !!! example
-    **Controller**: “MEA204, BEHIND THE DEPARTING CEDARJET A320, VIA HOTEL, LINE UP AND WAIT RUNWAY 21
-BEHIND.”
+    **Controller**: “MEA204, BEHIND THE DEPARTING CEDARJET A320, VIA HOTEL, LINE UP AND WAIT RUNWAY 21 BEHIND.”
 
 If aircraft have not yet reached the holding point where they are expected to line up at, ATC shall
 reiterate the cleared holding point.
@@ -86,15 +85,13 @@ aircraft does not reach its decision speed. Therefore, aerodrome controllers mus
 remain aware of the location of traffic and all times as well as runway incursion hotspots.
 
 !!! example
-    **Controller**: “MEA575, STOP IMMEDIATELY, I SAY AGAIN STOP IMMEDIATELY, TRUCK ENTERING THE
-RUNWAY.”
+    **Controller**: “MEA575, STOP IMMEDIATELY, I SAY AGAIN STOP IMMEDIATELY, TRUCK ENTERING THE RUNWAY.”
 
 For aircraft that have been given a take-off clearance, but have not yet started the roll, they shall be instructed to hold position and the take-off clearance must be cancelled along with the reason for
 cancellation.
 
 !!! example
-    **Controller**: “MEA575, HOLD POSITION, CANCEL TAKE-OFF, I SAY AGAIN CANCEL TAKE-OFF, AIRCRAFT
-ENTERING THE RUNWAY, ACKNOWLEDGE.”
+    **Controller**: “MEA575, HOLD POSITION, CANCEL TAKE-OFF, I SAY AGAIN CANCEL TAKE-OFF, AIRCRAFT ENTERING THE RUNWAY, ACKNOWLEDGE.”
 
 ## 3.4 Arrival Procedures
 
