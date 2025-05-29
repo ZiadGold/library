@@ -1,0 +1,128 @@
+:root {
+  --md-admonition-icon--scenario: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M448 32h-86.1l-1 1-127 127H326l1-1L453.8 32.3c-1.9-.2-3.8-.3-5.8-.3m64 128V96c0-15.1-5.3-29.1-14-40L394 160zM294.1 32H202l-1 1L73.9 160H166l1-1L294 32zM64 32C28.7 32 0 60.7 0 96v64h6.1l1-1 127-127zm448 160H0v224c0 35.3 28.7 64 64 64h384c35.3 0 64-28.7 64-64z"/></svg>');
+  --md-admonition-icon--solution: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 0 1-1.484.211c-.04-.282-.163-.547-.37-.847a9 9 0 0 0-.542-.68q-.126-.149-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259q-.142.172-.268.319c-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.751.751 0 0 1-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848q.113-.133.213-.253c.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75M5.75 12h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5M6 15.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75"/></svg>');
+  --md-admonition-icon--imagesearch: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 2C18 2 20 4 20 6.5c0 .88-.25 1.71-.69 2.4l3.08 3.1L21 13.39l-3.12-3.07c-.69.43-1.51.68-2.38.68C13 11 11 9 11 6.5S13 2 15.5 2m0 2A2.5 2.5 0 0 0 13 6.5 2.5 2.5 0 0 0 15.5 9 2.5 2.5 0 0 0 18 6.5 2.5 2.5 0 0 0 15.5 4m-8 10.5L4 19h14l-4.5-6-3.5 4.5zM20 20a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h5.5c-.32.77-.5 1.61-.5 2.5a6.5 6.5 0 0 0 6.5 6.5c.68 0 1.34-.11 1.96-.3L20 15.24z"/></svg>');
+
+}
+.md-typeset .admonition.scenario,
+.md-typeset details.scenario {
+  border-color: rgb(43, 155, 155);
+}
+.md-typeset .scenario > .admonition-title,
+.md-typeset .scenario > summary {
+  background-color: rgba(3, 155, 155, 0.1);
+}
+.md-typeset .scenario > .admonition-title::before,
+.md-typeset .scenario > summary::before {
+  background-color: rgb(3, 155, 155);
+  -webkit-mask-image: var(--md-admonition-icon--scenario);
+          mask-image: var(--md-admonition-icon--scenario);
+}
+
+.md-typeset .admonition.solution,
+.md-typeset details.solution {
+  border-color: rgb(44, 239, 119);
+}
+.md-typeset .solution > .admonition-title,
+.md-typeset .solution > summary {
+  background-color: rgba(44, 239, 119, 0.1);
+}
+.md-typeset .solution > .admonition-title::before,
+.md-typeset .solution > summary::before {
+  background-color: rgb(44, 239, 119);
+  -webkit-mask-image: var(--md-admonition-icon--solution);
+          mask-image: var(--md-admonition-icon--solution);
+}
+
+.md-typeset .admonition.imagesearch,
+.md-typeset details.imagesearch {
+  border-color: rgb(255, 255, 255);
+}
+.md-typeset .imagesearch > .admonition-title,
+.md-typeset .imagesearch > summary {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.md-typeset .imagesearch > .admonition-title::before,
+.md-typeset .imagesearch > summary::before {
+  background-color: rgb(255, 255, 255);
+  -webkit-mask-image: var(--md-admonition-icon--imagesearch);
+          mask-image: var(--md-admonition-icon--imagesearch);
+}
+
+
+
+
+
+
+
+
+
+/*Additional Modifications*/
+/*Admonition Question Variant*/
+/*Upper Section*/
+.md-typeset .question>.admonition-title,
+.md-typeset .question>summary,
+.md-typeset .faq>.admonition-title,
+.md-typeset .faq>summary,
+.md-typeset .help>.admonition-title,
+.md-typeset .help>summary {
+  border-color: #8F2020;
+  background-color: rgba(0, 184, 212, .1);
+  font-size: 0.8rem;
+}
+
+.md-typeset .question>.admonition-title::before,
+.md-typeset .question>summary::before,
+.md-typeset .faq>.admonition-title::before,
+.md-typeset .faq>summary::before,
+.md-typeset .help>.admonition-title::before,
+.md-typeset .help>summary::before {
+  background-color: #8F2020;
+  top: 0.5rem;
+}
+
+.md-typeset summary::after {
+  top: 0.5rem;
+}
+
+/*Lower Section*/
+.md-typeset .admonition.question,
+.md-typeset details.question,
+.md-typeset .admonition.faq,
+.md-typeset details.faq,
+.md-typeset .admonition.help,
+.md-typeset details.help {
+  border-color: #8F2020;
+  font-size: 0.8rem;
+}
+
+.md-typeset .admonition.information {
+  border-color: #8F2020;
+}
+
+/* for aligning image left or right with control over which text flows around */
+.md-typeset .admonition.block,
+.md-typeset details.block {
+  border-color: var(--md-default-bg-color);
+  background-color: var(--md-default-bg-color);
+  box-shadow: none;
+  font-size: .8rem;
+  margin: 0.5em 0;
+  padding: 0 .3rem;
+}
+
+.md-typeset .block>.admonition-title,
+.md-typeset .block>summary {
+  background-color: var(--md-default-bg-color);
+  border-color: var(--md-default-bg-color);
+  border-left: .2rem solid #8F2020;
+  font-weight: 700;
+  margin: 0 -.6rem 0 -.8rem;
+  padding: 0 0 0 0.4rem;
+  position: relative;
+}
+
+.md-typeset .block>.admonition-title::before,
+.md-typeset .block>summary::before {
+  height: 0rem;
+}
