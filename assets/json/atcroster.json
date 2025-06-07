@@ -1,0 +1,44 @@
+{
+  "columns": [
+    "CID",
+    "Name",
+    "Rating",
+    "Title",
+    "GND",
+    "TWR",
+    "APP",
+    "CTR"
+  ],
+  "data": [
+    {
+      "CID": 1662347,
+      "Name": "Tarek Najib",
+      "Rating": "S2",
+      "Title": "Aerodrome Controller",
+      "GND": "true",
+      "TWR": "true",
+      "APP": "training",
+      "CTR": "false"
+    },
+    {
+      "CID": 1662327,
+      "Name": "Ziad Al Dahab",
+      "Rating": "S1",
+      "Title": "Aerodrome Controller",
+      "GND": "true",
+      "TWR": "training",
+      "APP": "false",
+      "CTR": "false"
+    },
+    {
+      "CID": 1,
+      "Name": "Okay",
+      "Rating": "S2",
+      "Title": "Aerodrome Controller",
+      "GND": "true",
+      "TWR": "training",
+      "APP": "false",
+      "CTR": "false"
+    }
+  ]
+}
