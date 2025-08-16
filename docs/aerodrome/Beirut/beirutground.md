@@ -23,21 +23,6 @@ with the following information and under the following conditions:
 * Destination
 * SID
 
-##### 4.2.2.7.1 Apron 1
-Stand 101:
-- Code D and E aircraft shall push to face east abeam stand 309 on the terminal 3 taxiway.
-- Code C aircraft and smaller shall face north on taxiway E9 abeam stand 102.
-- An aircraft that has pushed abeam stand 309 and has completed the push is deemed separated from taxiway E9.
-- An aircraft that is pushing to abeam stand 309 is deemed separated from an aircraft pushing from stand 307 to face eas
-
-##### 4.2.2.7.2 Apron 1
-Stand 101:
-
-- Code D and E aircraft shall push to face east abeam stand 309 on the terminal 3 taxiway.
-- Code C aircraft and smaller shall face north on taxiway E9 abeam stand 102.
-- An aircraft that has pushed abeam stand 309 and has completed the push is deemed separated from taxiway E9.
-- An aircraft that is pushing to abeam stand 309 is deemed separated from an aircraft pushing from stand 307 to face eas
-  
 
 ### 2.2.2 IFR Clearance Issuance Format
 
