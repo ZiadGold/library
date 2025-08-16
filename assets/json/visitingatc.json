@@ -1,0 +1,25 @@
+{
+  "columns": [
+    "CID",
+    "Name",
+    "Rating",
+    "Region",
+    "Approved Positions"
+  ],
+  "data": [
+    {
+      "CID": 1262347,
+      "Name": "John",
+      "Rating": "S2",
+      "Region": "EMEA | MENA | Arabian",
+      "Approved Positions": "OLBA_TWR"
+    },
+    {
+      "CID": 4262347,
+      "Name": "Ahmad",
+      "Rating": "S1",
+      "Region": "EMEA | MENA | Arabian",
+      "Approved Positions": "OLBA_GND, OMDB_TWR, OERK_GND"
+    }
+  ]
+}
